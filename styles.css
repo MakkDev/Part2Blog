@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: rgb(31, 142, 245) ;
+}
+.blog__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.title{
+    text-decoration-line: underline;
+    font-size: 50px;
+}
+
+.blog__subscribe{
+    color: rgb(129, 129, 129);
+    font-size: 18px;
+}
+.searchIcon{
+    width: 30px;
+    
+}
+
+.blog__content{
+    display: flex;
+    width: 85%;
+}
+
+.blog__info{
+flex: 5;
+margin-right: 5%;
+}
+
+.blog__sidebar{
+flex: 3;
+}
+.blog__sidebar-about{
+background-color: rgb(219, 217, 217);
+padding: 10px 30px;
+}
+
+.post__title{
+    font-size: 60px;
+    margin-bottom: 1rem;
+}
+.post__date{
+    color: rgb(176, 178, 180);
+}
+.post__text{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+}
+.sidebar__header{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-family: 'Cormorant', ;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 42px;
+}
+.sidebar__list{
+list-style: none;
+line-height: 150%;
+}
+.boxed{
+    border: 1px solid grey;
+    padding: 0.5rem;
+}
+.subheader{
+    font-size: 45px;
+    margin-bottom: 1rem;
+}
+.code{
+    font-weight: 800;
+    font-size: 110%;
+    border: 1px solid grey;
+    display: block;
+}
+.button__container{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.btn{
+    font-size: 20px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 24px;
+}
+.older{
+    color: rgb(31, 142, 245);
+    border: 2px solid rgb(31, 142, 245);
+
+}
+.newer{
+    color: rgb(180, 177, 177);
+    border: 2px solid rgb(180, 177, 177);
+}
+.footer__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(190, 190, 190);
+    padding: 2rem 22rem;
+    margin-bottom: 1rem;
+}
+.footer__text{
+    margin-bottom: 20px;
+    color: rgb(129, 129, 129);
+}
